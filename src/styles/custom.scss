@@ -2,15 +2,22 @@ $theme-colors: (
   "primary": #227447
 );
 
+
+
 @import "~bootstrap/scss/bootstrap";
 
 .caption {
   border-radius: 50px;
   width: 100vw;
   background-color: rgba(map-get($theme-colors, "dark" ), 0.7);
-  font-size: x-large;
+  font-size: 1.5rem;
+  padding: 15px;
 }
 
-.caption p {
-  padding: 0 15px;
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 0.2rem solid white;
+  width: 33%;
 }

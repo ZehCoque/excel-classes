@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container'
 
 const MyCarousel: React.FC = () => {
   return (
-    <Container fluid className="p-0">
+    <Container fluid className="p-0 bg-primary ">
         <Carousel>
-        <Carousel.Item  className="vh-100">
-            <Image src="spreadsheets-blue.jpg" fluid alt="Consultoria" className="vw-100"/>   
+        <Carousel.Item className="vh-100">
+            <Image src="img/spreadsheets-blue.jpg" fluid alt="Consultoria" className="vw-100"/>   
             <Carousel.Caption>
                 <div className="d-flex justify-content-center">
                     <div className="caption">
@@ -21,7 +21,7 @@ const MyCarousel: React.FC = () => {
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item  className="vh-100">
-        <Image src="excel-notebook-camera.png" fluid alt="Consultoria" className="vw-100" />
+        <Image src="img/excel-notebook-camera.png" fluid alt="Consultoria" className="vw-100"/>
             <Carousel.Caption>
                 <div className="d-flex justify-content-center">
                     <div className="caption">
