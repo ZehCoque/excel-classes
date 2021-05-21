@@ -2,11 +2,15 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Image from 'react-bootstrap/Image'
+
 
 const MyNavbar: React.FC = () => {
   return (
 <Navbar fixed="top" collapseOnSelect expand="lg" bg="primary" variant="dark">
-  <Navbar.Brand href="#home">MacroMan</Navbar.Brand>
+  <Navbar.Brand href="#home">
+  <Image width={120} src="img/White letters - green brackground.png" fluid alt="Consultoria"/> 
+  </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">

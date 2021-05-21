@@ -19,5 +19,13 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 0.2rem solid white;
-  width: 33%;
+  width: 33%
+}
+
+hr.left{
+  margin-right: 0%;
+}
+
+hr.right{
+  margin-right: 100%;
 }

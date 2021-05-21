@@ -8,10 +8,7 @@ import Image from 'react-bootstrap/Image'
 const HowTo: React.FC = () => {
   return (
     <Container fluid className="bg-light p-0">
-        <Container className="bg-light">
-            <Jumbotron className="bg-transparent text-center text-dark m-0 p-3">
-                <h1>Aplicabilidade</h1>
-            </Jumbotron>
+        <Container fluid="md" className="bg-primary">
             <Row>
               <Col className="p-0" sm>
                 <Image 
@@ -20,12 +17,12 @@ const HowTo: React.FC = () => {
                 alt="Consultoria"/>   
               </Col>
               <Col sm className="p-0 bg-primary text-light m-0">
-                <div className="d-flex align-items-center h-100">
+                <div className="d-flex align-items-center justify-content-start h-100">
                   <Jumbotron className="bg-transparent p-3 text-left">
                     <h1>Elimine tarefas repetitivas</h1>
-                    <hr className="ml-5"></hr>
+                    <hr className="right"></hr>
                     <p>
-                      Text              
+                      Preencher relatórios pode se tornar tão simples quanto apertar um botão!
                     </p>
                   </Jumbotron>
                 </div>
@@ -41,12 +38,12 @@ const HowTo: React.FC = () => {
               </Col>
               <Col sm={{ order: 'first' }} 
               className="p-0 bg-primary text-light m-0">
-                <div className="d-flex align-items-center h-100">
+                <div className="d-flex align-items-center justify-content-end h-100">
                 <Jumbotron className="bg-transparent p-3 text-right">
                   <h1>Automatize o seu trabalho</h1>
-                  <hr className="mr-5"></hr>
+                  <hr className="left"></hr>
                   <p>
-                    Text              
+                    Deixe sua máquina fazer o trabalho por você!
                   </p>
                 </Jumbotron>
                 </div>
@@ -61,12 +58,12 @@ const HowTo: React.FC = () => {
                 alt="Consultoria"/>   
               </Col>
               <Col sm className="p-0 bg-primary text-light m-0">
-                <div className="d-flex align-items-center h-100">
+                <div className="d-flex align-items-center justify-content-start h-100">
                   <Jumbotron className="bg-transparent p-3 text-left">
                     <h1>Integração entre SAP e VBA</h1>
-                    <hr className="ml-5"></hr>
+                    <hr className="right"></hr>
                     <p>
-                      Text              
+                      Complete tarefas e extraia relatórios de várias transações automaticamente!
                     </p>
                   </Jumbotron>
                 </div>
