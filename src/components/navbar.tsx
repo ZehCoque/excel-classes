@@ -1,9 +1,8 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Image from 'react-bootstrap/Image'
-
+import Button from 'react-bootstrap/Button'
 
 const MyNavbar: React.FC = () => {
   return (
@@ -14,20 +13,22 @@ const MyNavbar: React.FC = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Link href="#about">Sobre</Nav.Link>
+      <Nav.Link href="#features">Vantagens</Nav.Link>
+      <Nav.Link href="#contact">Contato</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
+      <Nav.Link>
+
+        <Button variant="primary" className="py-0 px-3 d-inline-flex">
+          <div className="row">
+          <Image width={30} src="img/whatsapp.svg" className="mr-1 pb-1" alt="Consultoria"/> 
+          <h5 className="align-self-center">
+          Mande uma mensagem
+            </h5>
+          </div>
+        </Button>
+
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
