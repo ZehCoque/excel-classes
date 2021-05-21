@@ -14,7 +14,7 @@ const MyCarousel: React.FC = () => {
                     <div className="caption">
                     <h1>Consultoria</h1>
                         <p>
-                            Entregamos planilhas que resolvem o seu problema e aumentam a sua produtividade
+                            Entregamos ferramentas que resolvem o seu problema e aumentam a sua produtividade
                         </p>
                     </div>
                 </div>

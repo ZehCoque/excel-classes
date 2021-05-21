@@ -8,7 +8,7 @@ const MyNavbar: React.FC = () => {
   return (
 <Navbar fixed="top" collapseOnSelect expand="lg" bg="primary" variant="dark">
   <Navbar.Brand href="#home">
-  <Image width={120} src="img/White letters - green brackground.png" fluid alt="Consultoria"/> 
+  <Image width={180} src="img/White letters - green brackground.png" fluid alt="Consultoria"/> 
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
