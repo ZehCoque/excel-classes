@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image'
 
 const HowTo: React.FC = () => {
   return (
-    <Container fluid className="bg-light p-0">
+    <Container fluid className="bg-light p-0" id="features">
         <Container fluid="md" className="bg-primary">
             <Row>
               <Col className="p-0" sm>

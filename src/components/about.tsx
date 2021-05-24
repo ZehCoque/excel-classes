@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 
 const About: React.FC = () => {
   return (
-    <Container fluid className="bg-dark p-0">
+    <Container fluid className="bg-dark p-0" id="about">
         <Container className="bg-dark">
             <Jumbotron className="bg-transparent text-white text-center m-0">
                 <h1>Hello, world!</h1>

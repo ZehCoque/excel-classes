@@ -3,11 +3,12 @@ import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import { BsChevronDoubleDown } from "react-icons/bs";
+import Button from 'react-bootstrap/Button'
 
 
 const MyCarousel: React.FC = () => {
   return (
-    <Container fluid className="p-0 bg-primary">
+    <Container fluid className="p-0 bg-primary" id="home">
         <div id="overlay"></div>
         <Carousel>
         <Carousel.Item className="vh-100-md">
@@ -37,10 +38,18 @@ const MyCarousel: React.FC = () => {
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
-        <div className="saiba-mais">
-    	    Saiba mais
-            <BsChevronDoubleDown className="saiba-mais-icon"/>
+        
+        <a href="#about" className="text-decoration-none text-white">
+        <div className="saiba-mais d-flex">
+            
+                Saiba mais
+                    
+                <BsChevronDoubleDown  className="saiba-mais-icon"/>
+
+
         </div>
+        </a>
+
     </Container>
 
   );

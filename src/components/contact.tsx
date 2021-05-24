@@ -5,9 +5,9 @@ import Button from 'react-bootstrap/Button'
 
 const Contact: React.FC = () => {
   return (
-    <Container fluid className="bg-dark p-0">
+    <Container fluid className="bg-dark p-0" id="contact">
         <Container className="bg-dark">
-            <Jumbotron className="bg-transparent text-white text-center m-0">
+            <Jumbotron className="bg-transparent text-white text-center m-0" >
                 <h1>Hello, world!</h1>
                 <p>
                     This is a simple hero unit, a simple jumbotron-style component for calling
