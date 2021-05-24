@@ -2,16 +2,19 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
+import { BsChevronDoubleDown } from "react-icons/bs";
+
 
 const MyCarousel: React.FC = () => {
   return (
-    <Container fluid className="p-0 bg-primary ">
+    <Container fluid className="p-0 bg-primary">
+        <div id="overlay"></div>
         <Carousel>
-        <Carousel.Item className="vh-100">
-            <Image src="img/spreadsheets-blue.jpg" fluid alt="Consultoria" className="vw-100"/>   
+        <Carousel.Item className="vh-100-md">
+            <Image src="img/spreadsheets-blue.jpg" fluid alt="Consultoria" className="vw-100 "/>   
             <Carousel.Caption>
-                <div className="d-flex justify-content-center">
-                    <div className="caption">
+                <div className="d-flex justify-content-center ">
+                    <div className="caption ">
                     <h1>Consultoria</h1>
                         <p>
                             Entregamos ferramentas que resolvem o seu problema e aumentam a sua produtividade
@@ -20,7 +23,7 @@ const MyCarousel: React.FC = () => {
                 </div>
             </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item  className="vh-100">
+        <Carousel.Item  className="vh-100-md">
         <Image src="img/excel-notebook-camera.png" fluid alt="Consultoria" className="vw-100"/>
             <Carousel.Caption>
                 <div className="d-flex justify-content-center">
@@ -36,8 +39,10 @@ const MyCarousel: React.FC = () => {
         </Carousel>
         <div className="saiba-mais">
     	    Saiba mais
+            <BsChevronDoubleDown className="saiba-mais-icon"/>
         </div>
     </Container>
+
   );
 };
 
