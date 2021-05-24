@@ -29,3 +29,32 @@ hr.left{
 hr.right{
   margin-right: 100%;
 }
+
+@media (min-width: 992px) {
+  .saiba-mais {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 80px;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: bolder;
+    color: map-get($theme-colors, "light");
+    height: 20px;
+    z-index: 10;
+}
+
+.saiba-mais:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-image: url(https://github.com/ZehCoque/excel-classes/blob/master/public/icons/double_arrow_white_48dp.svg);
+  height: 20px;
+  width: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+}

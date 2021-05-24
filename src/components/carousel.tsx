@@ -34,6 +34,9 @@ const MyCarousel: React.FC = () => {
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
+        <div className="saiba-mais">
+    	    Saiba mais
+        </div>
     </Container>
   );
 };
